@@ -1,0 +1,191 @@
+@media(min-width: 1970px) {
+    .nav {
+        display: flex;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        height: max-content;
+        align-items: center;
+        justify-content: center; 
+        background-color: var(--main-color);
+        z-index: 10;
+    }
+    .navrow {
+        width: 100%;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 0 20px; 
+    }
+    .logo {
+        display: flex; 
+        flex-direction: row; 
+        align-items: center; 
+        gap: 10px; 
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+        color: #000000;
+    }
+    .LogoIMG {
+        width: 3rem;    
+        height: 3rem;
+    }
+    .logotxt {
+        vertical-align: middle;
+    }
+    .txt {
+        display: flex;
+        font-family: myFirstFont;
+        font-size: 3rem;
+        text-align:center;
+    }
+    .point{
+        font-size: 2rem;
+    }
+    
+}
+
+@media(max-width: 1970px) {
+    .nav {
+        display: flex;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        height: max-content;
+        align-items: center;
+        justify-content: center; 
+        background-color: var(--main-color);
+        z-index: 10;
+       
+    }
+    .navrow {
+        width: 100%;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 0 20px; 
+    }
+    .logo {
+        display: flex; 
+        flex-direction: row; 
+        align-items: center; 
+        gap: 10px; 
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        color: #000000;
+    }
+    .LogoIMG {
+        width: 2rem;    
+        height: 2rem;
+    }
+    .logotxt {
+        vertical-align: middle;
+    }
+    .txt {
+        display: flex;
+        font-family: myFirstFont;
+        text-align:center;
+    }
+    .point{
+        font-size: 1rem;
+    }
+}
+
+/*адаптивка*/
+@media(max-width: 1024px) {
+    .nav {
+        display: flex;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        height: max-content;
+        align-items: center;
+        justify-content: center; 
+        background-color: var(--main-color);
+        z-index: 10;
+    }
+    .navrow {
+        width: 100%;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 0 20px; 
+    }
+    .logo {
+        display:inline;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        color: #000000;
+        font-size: 1.5rem;
+        font-family: 'Poppins',sans-serif;
+    }
+    .LogoIMG {
+        vertical-align: middle;
+        width: 2rem;    
+        height: 2rem;
+    }
+    .logotxt{
+        vertical-align: middle;
+        text-align:center;
+    }
+    .txt {
+        display: flex;
+        font-family: myFirstFont;
+        font-size: 1rem;
+        text-align:center;
+    }
+}
+
+@media(max-width: 400px) {
+    .nav {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-width: 400px;
+        height: max-content;
+        align-items: center;
+        justify-content: center;
+        color: rgb(0, 0, 0);
+        background-color: var(--main-color);
+        z-index: 10;
+        
+    }
+    .navrow{
+        flex-direction: column; /* Расположить элементы вертикально */
+        align-items:center; /* Центрировать все элементы по горизонтали */
+        justify-content:center; 
+        width:auto; 
+    }
+    .logo {
+        display:inline;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        color: #000000;
+        font-size: 1.2rem;
+        font-family: 'Poppins',sans-serif;
+    }
+    .LogoIMG {
+        vertical-align: middle;
+        width: 2rem;    
+        height: 2rem;
+    }
+    .logotxt{
+        vertical-align: middle;
+        text-align:center;
+    }
+    .txt{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        font-size: 0.5rem;
+        font-family: myFirstFont;
+    }
+}

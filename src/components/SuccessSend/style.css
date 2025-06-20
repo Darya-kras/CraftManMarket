@@ -1,0 +1,34 @@
+.suc{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.499);
+}
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    width: 50%;
+    height: 5rem;
+    padding: 1rem;
+    margin: 25%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: var(--main-color);
+}
+.close{
+    height: 2rem;
+    width: 3rem;
+    margin-left: 1rem;
+    border: none;
+    padding: 0;
+    border-radius: 10px;
+    background-color: black;
+    color: var(--main-color);
+    transition: 0.3s;
+}
+.close:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.05);
+}
