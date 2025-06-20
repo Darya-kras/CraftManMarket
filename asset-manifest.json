@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/CraftManMarket/static/css/main.61d3301a.css",
-    "main.js": "/CraftManMarket/static/js/main.194de94b.js",
+    "main.js": "/CraftManMarket/static/js/main.93043c3d.js",
     "static/js/453.3f74d863.chunk.js": "/CraftManMarket/static/js/453.3f74d863.chunk.js",
     "static/media/West0.gif": "/CraftManMarket/static/media/West0.237f4292cdefbf1b85d6.gif",
     "static/media/Comfortaa-VariableFont_wght.ttf": "/CraftManMarket/static/media/Comfortaa-VariableFont_wght.e813464cff793b714f61.ttf",
     "index.html": "/CraftManMarket/index.html",
     "main.61d3301a.css.map": "/CraftManMarket/static/css/main.61d3301a.css.map",
-    "main.194de94b.js.map": "/CraftManMarket/static/js/main.194de94b.js.map",
+    "main.93043c3d.js.map": "/CraftManMarket/static/js/main.93043c3d.js.map",
     "453.3f74d863.chunk.js.map": "/CraftManMarket/static/js/453.3f74d863.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61d3301a.css",
-    "static/js/main.194de94b.js"
+    "static/js/main.93043c3d.js"
   ]
 }
