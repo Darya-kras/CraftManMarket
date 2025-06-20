@@ -5,7 +5,7 @@ const Header = () => {
         <nav className="nav">
             <div className="navrow">
                 <NavLink to="/" className="logo">
-                    <img className="LogoIMG" src="/Logo3.svg" alt=" "></img>
+                    <img className="LogoIMG" src="%PUBLIC_URL%/Logo3.svg" alt=" "></img>
                     <span className="logotxt" >Egor CraftMan</span>
                 </NavLink>
             
